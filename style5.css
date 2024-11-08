@@ -1,0 +1,224 @@
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-color: rgba(141, 141, 141, 0.571);
+  }
+/* Add a black background color to the top navigation*/
+.topnav {
+    background-color: rgba(126, 118, 118, 0.589);
+    overflow: hidden;
+    }
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    }
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    }
+/* Add a color to the active/current link */
+/* Now currently is in the home page, therefore the home page navigation button is light in green light */ 
+.topnav a.active {
+    background-color: #604411c9;
+    color: white;
+    }
+/* Create a right-aligned (split) link inside the navigation bar */
+.topnav a.split {
+  float: right;
+  background-color: #eab650;
+  color: rgb(0, 0, 0);
+  padding: 14px;
+  text-decoration: none;
+  font-size: 15px;
+  margin-left: 5px;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'poppins', sans-serif;
+    font-size:18px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+
+.fa-solid{
+    color:rgb(0, 0, 0)
+}
+
+.container{
+    display: flex;
+    width: 70%;
+    margin-bottom: 30px;
+}
+#root{
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:20px;
+}
+.sidebar{
+    width:40%;
+    border-radius : 5px;
+    background-color: #eee;
+    margin-left:20px;
+    padding: 15px;
+    text-align:center;
+
+}
+.head{
+    background-color: #604411c9;
+    border-radius: 3px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: white;
+    display: flex;
+    align-items:center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    border-top: 1px solid #333;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+}
+.foot1{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+/* Style buttons */
+.btn {
+    background-color: rgba(126, 118, 118, 0);
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    position:right;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: rgba(126, 118, 118, 0.589);
+  }
+  .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #31240bc9;
+    border-radius:5px;
+    padding:15px;
+    background-color: #604411c9;
+    color:white;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  .img-box
+  {
+    width:100%;
+    height:180px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    
+  }
+  .images
+  {
+    width:100%;
+    height:180px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .bottom{
+    margin-top: 20px;
+    width:100%;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 110px;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+  }
+  h2
+  {
+    font-size: 20px;
+    color:#776135;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+  }
+
+  button{
+    width: 100%;
+    position: relative;
+    border: none;
+    border-radius: 5px;
+    background-color: #d3c4b5;
+    padding: 7px 15px;
+    cursor:pointer;
+    color: rgb(0, 0, 0);
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+button:hover{
+    background-color: rgb(255, 255, 255);
+}
+.cart-item{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding :10px;
+    background-color: white;
+    border-bottom:1px solid #aaa ;
+    border-radius:3px;
+    margin: 10px 10px;
+}
+.row-img{
+    width: 50px;
+    height:50px;
+    border-radius:50px;
+    border:1px solid rgba(148, 112, 20, 0.316);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.rowing{
+    max-width: 43px;
+    max-height: 43px;
+    border-radius:50%;
+}
+.fa-trash:hover{
+    cursor:pointer;
+    color:#333;
+
+}
+
+.checkout{
+    width:95%;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(58, 56, 47);
+    font-size: large;
+    color: #fff;
+    margin:10px auto;
+    padding:10px 15px;
+}

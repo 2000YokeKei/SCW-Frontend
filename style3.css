@@ -1,0 +1,173 @@
+body {
+ 
+  font-size: 17px;
+  background-color: #c7c6c0;;
+}
+.container0 {
+  position:top;
+  margin: 20px;
+  width: auto;
+}
+/* Add a black background color to the top navigation
+*/
+.topnav {
+  background-color: rgba(126, 118, 118, 0.589);
+  overflow: hidden;
+  }
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  }
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  }
+/* Add a color to the active/current link */
+/* Now currently is in the home page, therefore the home page navigation button is light in green light */ 
+.topnav a.active {
+  background-color: #604411c9;
+  color: white;
+  }
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  left: auto;
+  background-color: rgba(84, 71, 33, 0.515);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.container {
+
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+  height: 600px;
+  color: aliceblue;
+  background-color: rgba(159, 152, 114, 0.589)
+  
+  
+}
+.container1 {
+ 
+  padding-top: 20px;
+  position: Left ;
+  max-width: 100%;
+  margin: 0 auto;
+  height: 600px;
+  color: aliceblue;
+  background-color: rgba(159, 152, 114, 0.589)
+  
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  left: auto;
+  background-color: rgba(84, 71, 33, 0.515);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.column {
+  float: left;
+  width: 40%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+ 
+}
+.p4{
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size:20px;
+}
+
+h1{
+  padding-top: 12px;
+  font-family: "Lucida Console", "Courier New", monospace;
+    font-size:35px;
+    font-weight: blod;
+    color: #ffffff;
+}
+h2{
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size:20px;
+  font-style: italic; 
+  color: #ffffff;
+}
+h3{
+  padding-top: 12px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size:18px;
+  color: #ffffff;
+}
+h4{
+  padding-top: 12px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size:15px;
+  color: #ffffff;
+  text-align: left;
+}
+p{
+  padding-top: 12px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size:15px;
+  color: #ffffff;
+}
+.Availability{
+  padding: 6px;
+}
+
+
+#myform {
+  text-align: left;
+  padding: 5px;
+  padding-top: 5px;
+  margin: 2%;
+ 
+}
+.qty {
+  width: 40px;
+  height: 25px;
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+  
+}
+input.qtyplus { width:25px; height:25px;}
+input.qtyminus { width:25px; height:25px;}
+
+  /* the product details button */
+  .button {
+    padding-top: 6px;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 12px;
+    color: rgb(255, 255, 255);
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 16px;
+    background-color: rgba(51, 46, 12, 0.938);
+    text-align: center;
+    cursor: pointer;
+    width: 20%;
+  }
+  
+  .button:hover {
+    background-color: rgb(140, 136, 118);
+  }
+  

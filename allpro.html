@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>My styled page</title>
+<link rel="stylesheet" href="style5.css">
+<script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <div class="topnav">
+            <a href="Home.html">Home</a>
+            <a href="Notebooks.html">NoteBook</a>
+            <a href="Pen and Pencil.html">Pens and Pencils</a>
+            <a href="Sticky Note.html">Sticky Note</a></li>
+            <a href="File and folder.html">File and folder</a>
+            <a href="Paper Clips.html">Paper Clips</a>
+            <a href="Paper and Pads.html">Paper and Pads</a>
+            <a class="active" href="allpro.html">All Product</a>
+            <a href="Sign in.html" class="split" >Register</a>
+            <a><i class="fa-solid fa-cart-shopping"></i><p id="count">0</p></a>
+            
+        </div>
+        <div class="container">
+            <div id="root"></div>
+            <div class="sidebar">
+                <div class="head"><p>My cart</p></div>
+                <div id="cartItem">Your cart is empty</div>
+                <div class="foot1">
+                    <p>Subtotal</p>
+                    <p id="subtotal">RM 0.00</p>
+                </div>
+                <div class="foot1">
+                    <p>Shipping fee</p>
+                    <p id="shipping_fee">RM 0.00</p>
+                </div>
+                <div class="foot1">
+                    <p>Discount</p>
+                    <p id="discount">RM 0.00</p>
+                </div>
+                <div class="foot">
+                    <h3>Total</h3>
+                    <h2 id="total_price">RM 0.00</h2>
+                </div>
+                <button onclick="order();" >Checkout</button>
+            </div>
+        </div>
+        <script src="ALLPRO.js"></script>
+    
+</body>
+</html>
