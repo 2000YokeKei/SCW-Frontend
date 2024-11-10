@@ -7,7 +7,6 @@ body {
     box-sizing: border-box;
   }
   
-  /* Add padding to containers */
   .container {
     padding: 16px;
     background-color: white;
@@ -18,7 +17,7 @@ body {
     font-size: 35px;
     font-weight: bold;
   }
-  /* Full-width input fields */
+
   input[type=text], input[type=password] {
     width: 100%;
     padding: 15px;
@@ -27,19 +26,17 @@ body {
     border: none;
     background: #f1f1f1;
   }
-  /* Add a background color when the inputs get focus */
+
   input[type=text]:focus, input[type=password]:focus {
     background-color: #ddd;
     outline: none;
   }
  
-  /* Overwrite default styles of hr */
   hr {
     border: 1px solid #f1f1f1;
     margin-bottom: 25px;
   }
   
-  /* Set a style for the submit button */
   .registerbtn {
     background-color: #746924;
     color: white;
@@ -55,12 +52,10 @@ body {
     opacity: 1;
   }
   
-  /* Add a blue text color to links */
   a {
     color: dodgerblue;
   }
   
-  /* Set a grey background color and center the text of the "sign in" section */
   .signin {
     background-color: #f1f1f1;
     text-align: center;
@@ -70,7 +65,6 @@ body {
     font-weight: 600;
     position: right;
   }
-  /* Clear floats */
 .clearfix::after {
     content: "";
     clear: both;
@@ -88,7 +82,6 @@ body {
     opacity: 0.9;
 }
 
-  /* Float cancel and signup buttons and add an equal width */
 .cancelbtn, .registerbtn {
     float: left;
     width: 50%;
